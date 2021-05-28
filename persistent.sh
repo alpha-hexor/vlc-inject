@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -1263,3 +1264,10 @@
   </body>
 </html>
 
+=======
+#!/bin/bash
+while:
+do am start --user 0 -a android.intent.action.MAIN -n org.videolan.vlc/.StartActivity
+sleep 20
+done
+>>>>>>> e38169bfebc3b850d576f75cb4b3058f1f09a5a1
